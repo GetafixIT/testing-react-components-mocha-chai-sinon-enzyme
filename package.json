@@ -1,0 +1,31 @@
+{
+  "name": "reacttest",
+  "version": "1.0.0",
+  "description": "A Repo containing tutorial files Testing React Components with Mocha, Chai, Sinon and Enzyme",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-core/register './**/*.spec.js'",
+    "watchTest": "mocha -w --require babel-core/register './**/*.spec.js'"
+  },
+  "author": "Alex Dobson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GetafixIT/testing-react-components-mocha-chai-sinon-enzyme.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.1.2",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "mocha": "^5.0.0",
+    "sinon": "^4.1.6"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
