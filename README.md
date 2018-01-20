@@ -2,9 +2,13 @@
 
 Run the following commands:
 
-```
+First clone the repo with:
+
+```bash
 git clone git@github.com:GetafixIT/testing-react-components-mocha-chai-sinon-enzyme.git reactComponentTest && cd reactComponentTest
-``` to clone the repo
+```
+
+Then you can run the following commands:
 
 `npm i` to collect the dependencies
 
