@@ -24,9 +24,7 @@ describe("Component: Snippet", () => {
   });
 
   it("Envokes a click callback if the button is clicked", () => {
-    const data = {
-      title: 'This is my H1 title',
-      content: 'Here is somme ipsum to test as content.',
+    const data = {      
       clickCallback: sinon.spy()
     }
 

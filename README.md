@@ -8,10 +8,11 @@ First clone the repo with:
 git clone git@github.com:GetafixIT/testing-react-components-mocha-chai-sinon-enzyme.git reactComponentTest && cd reactComponentTest
 ```
 
-Then you can run the following commands:
-
+### Install dependencies:
 `npm i` to collect the dependencies
 
+
+### Or to test the component:
 `npm test` to run the tests
 
 `npm run watchTest` to re-run the tests on changes to spec or component changes

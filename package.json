@@ -4,7 +4,7 @@
   "description": "A Repo containing tutorial files Testing React Components with Mocha, Chai, Sinon and Enzyme",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require babel-core/register './**/*.spec.js'",
+    "test": "mocha --require babel-core/register --reporter mochawesome './**/*.spec.js'",
     "watchTest": "mocha -w --require babel-core/register './**/*.spec.js'"
   },
   "author": "Alex Dobson",
@@ -22,6 +22,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "mocha": "^5.0.0",
+    "mochawesome": "^3.0.1",
     "sinon": "^4.1.6"
   },
   "dependencies": {
